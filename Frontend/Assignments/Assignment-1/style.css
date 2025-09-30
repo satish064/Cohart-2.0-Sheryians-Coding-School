@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #EBEBEB;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+}
+
+header {
+    padding-block: 16px;
+    color: white;
+    background-color: #191D2E;
+    font-weight: 800;
+    text-align:center;
+}
+
+header h1 {
+    font-size: 70px;
+}
+
+header h2 {
+    color: #AEAEAE;
+}
+
+div {
+    margin: 40px auto;
+    max-width: 1020px;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+div h3 {
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.about-me {
+    background-color: white;
+}
+
+.skills {
+    background-color: #fef0bf;
+}
+
+.education {
+    background-color: #D3F3FF;
+}
+
+.projects {
+    background-color: #EBDBFF;
+}
+
+.contact-me{
+    background-color: #DBFFE2;
+}
+
+div p {
+    width: 90%;
+    padding: 16px;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-inline: auto;
+}
+
+footer {
+    padding: 20px;
+    background-color: #555555;
+    color: white;
+}
