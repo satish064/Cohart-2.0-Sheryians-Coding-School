@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url('https://media.istockphoto.com/id/2173451209/photo/be-strong-be-brave-be-fearless-quote-engraved-on-textured-background-3d-rendering.jpg?s=1024x1024&w=is&k=20&c=9dNC61Z0GubIcH_q4o5kJwL2zU8u16Mezt8TuWiyM1Y=');
+    background-size: cover;
+    font-family: "Asimovian", sans-serif;
+}
+
+h1 {
+    font-size: 110px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+button {
+    border: none;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: -20px;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #ff9900, #ff3300);
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
