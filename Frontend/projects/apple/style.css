@@ -1,0 +1,309 @@
+@font-face {
+  font-family: seb;
+  src: url(./fonts/sf-pro-display_regular.woff2);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "seb";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(24, 24, 24);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#spacer {
+  height: 60px;
+}
+
+h4 {
+  color: white;
+  font-weight: 300;
+}
+
+#center {
+  height: calc(100% - 60px);
+  width: 100%;
+  background-image: url("./assets/hero_iphone_17_pro__bknyzxfk2agi_large_2x.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin-block: 15px;
+}
+
+#heroContent {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+#heroContent h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+#center h5 {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+#links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+#links button {
+  padding: 13px 30px;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+#learnmoretbtn {
+  border: none;
+  background-color: #0077ed;
+  color: white;
+}
+
+#buytbtn {
+  border: 1px solid #0077ed;
+  background-color: black;
+  color: #0077ed;
+}
+
+#buytbtn:hover,
+#iphoneAirContent #buytbtn:hover,
+#iphone17mobile #buytbtn:hover,
+#iCloudeContent #buytbtn:hover,
+#appleWatch #buytbtn:hover,
+#AirPods #buytbtn:hover {
+  cursor: pointer;
+  background-color: #0077ed;
+  color: white;
+}
+
+#iphoneAir {
+  height: calc(100% - 60px);
+  width: 100%;
+  background-image: url("./assets/hero_iphone_air__0gxyavihpiqu_medium_2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 15px;
+}
+
+#iphoneAirContent {
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#iphoneAirContent h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+#iphoneAirContent h5 {
+  margin: 0 auto;
+  width: 330px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#iphoneAirContent #buytbtn {
+  background-color: white;
+}
+
+#iphone17 {
+  display: flex;
+  height: calc(100% - 60px);
+  width: 100%;
+  text-align: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+#iphone17mobile {
+  padding-top: 50px;
+  width: 50%;
+  background-image: url("./assets/promo_iphone_17__bhofuohbsu3m_medium_2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+#iphone17mobile h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#iphone17mobile h5 {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+
+#iphone17mobile #buytbtn {
+  background-color: white;
+}
+
+#iCloude {
+  padding-top: 50px;
+  width: 50%;
+  background-image: url("./assets/promo_icloud_plus__d4639vh3tz2a_medium_2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#iCloudeContent h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#iCloudeContent h5 {
+  margin: 0 auto;
+  width: 350px;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+#iCloudeContent #buytbtn{
+  background-color: white;
+}
+
+#evelenSeries {
+  width: 300px;
+}
+
+#appleWatch {
+  padding-top: 50px;
+  width: 50%;
+  height: calc(100%);
+  background-image: url("./assets/promo_apple_watch_series_11__b63hxviqvonm_medium_2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#appleWatch h5 {
+  margin: 0 auto;
+  width: 350px;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+#appleWatch #buytbtn {
+  background-color: white;
+}
+
+sup {
+  font-size: 10px;
+}
+
+
+#AirPods {
+  padding-top: 50px;
+  width: 50%;
+  background-image: url("./assets/promo_airpodspro_3__f6xmza7bglei_medium_2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#AirPods h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#AirPods h5 {
+  margin: 0 auto;
+  width: 350px;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+#AirPods #buytbtn{
+  background-color: white;
+}
+
+#ipad-air-icon , #trade-in-icon{
+  width: 141px;
+}
+
+#ipad-air {
+  padding-top: 50px;
+  width: 50%;
+  background-image: url("./assets/promo_ipad_air__bfbxzvw65c02_large_2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#ipad-air h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#ipad-air h5 {
+  margin: 0 auto;
+  width: 350px;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+#ipad-air #buytbtn{
+  background-color: white;
+}
+
+#iphone-trade {
+  padding-top: 50px;
+  width: 50%;
+  background-image: url("./assets/promo_iphone_tradein__bugw15ka691e_medium_2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#iphone-trade h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#iphone-trade h5 {
+  margin: 0 auto;
+  width: 150px;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+#iphone-trade #buytbtn{
+  background-color: white;
+}
+
