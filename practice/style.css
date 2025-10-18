@@ -9,14 +9,37 @@ html,body {
     width: 100%;
 }
 
-main {
+main{
     height: 100%;
     width: 100%;
     background-color: black;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 1fr 80px;
+    gap: 10px ;
+
+
+    grid-template-areas: "header header"
+                         "aside section"
+                         "footer footer"
 }
 
-header {
-    height: 60px;
-    width: 100%;
-    background-color: lightblue;
+header{
+    background-color: gold;
+    grid-area: header;
+}
+
+aside{
+    background-color: aqua;
+    grid-area: aside;
+}
+
+section{
+    background-color: magenta;
+    grid-area: section;
+}
+
+footer {
+    background-color: maroon;
+    grid-area: footer;
 }
