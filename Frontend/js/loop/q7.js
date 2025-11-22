@@ -14,5 +14,4 @@ if(isNaN(age)) return 'Enter a Number Please Not a String!!'
          else if( age >= 18 ) return 'You can vote'
          else return "YOu can't vote"
 }
-
 console.log(checkAge(age))
