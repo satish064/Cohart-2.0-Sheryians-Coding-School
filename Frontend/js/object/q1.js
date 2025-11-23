@@ -8,6 +8,11 @@ let student =
     grade: 'B'
 }
 
+
+// Add a new property city to the student object created in Q1 and print the updated object.
+
+student.city = 'Delhi'
+
 for(let key in student){
     console.log(`${key}: ${student[key]}`)
 }
